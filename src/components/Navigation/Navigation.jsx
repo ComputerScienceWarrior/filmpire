@@ -53,6 +53,7 @@ const Navigation = () => {
               </Button>
             )}
           </div>
+          {isMobile && 'Search...'}
         </Toolbar>
       </AppBar>
     </>
