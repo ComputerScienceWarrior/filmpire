@@ -4,3 +4,4 @@ export { default as Movies } from './Movies/Movies';
 export { default as Actor } from './Actor/Actor';
 export { default as Profile } from './Profile/Profile';
 export { default as Navigation } from './Navigation/Navigation';
+export { default as Sidebar } from './Sidebar/Sidebar';
