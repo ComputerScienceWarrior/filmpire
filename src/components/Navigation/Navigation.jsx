@@ -72,7 +72,7 @@ const Navigation = () => {
                 <Sidebar setMobileOpen={setMobileOpen} />
               </Drawer>
             ): (
-              <Drawer>
+              <Drawer classes={{ paper: classes.drawerPapaer}} variant="permanent" open>
                 <Sidebar setMobileOpen={setMobileOpen}/>
               </Drawer>
             )}
